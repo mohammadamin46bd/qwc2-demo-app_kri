@@ -1,0 +1,116 @@
+{
+  "locale": "fr-FR",
+  "messages": {
+    "appmenu": {
+      "items": {
+        "Draw": "Dessiner",
+        "DxfExport": "Export DXF",
+        "Help": "Aide",
+        "LayerTree": "Couches",
+        "Measure": "Mesurer",
+        "Print": "Imprimer",
+        "RasterExport": "Export image",
+        "Share": "Partager",
+        "ThemeSwitcher": "Cartes",
+        "Tools": "Outils",
+        "IdentifyRegion": "Interroger la région"
+      },
+      "menulabel": "Cartes et outils"
+    },
+    "bgswitcher": {
+      "nobg": "Pas de fond"
+    },
+    "bottombar": {
+      "mousepos_label": "Coordonnées",
+      "scale_label": "Echelle",
+      "terms_label": "Conditions d'utilisation",
+      "viewertitle_label": "Page d'accueil"
+    },
+    "draw": {
+      "delete": "",
+      "clearAll": "",
+      "point": "",
+      "line": "",
+      "polygon": "",
+      "bbox": "",
+      "circle": "",
+      "strokecolor": "",
+      "fillcolor": "",
+      "text": "",
+      "strokewidth": "",
+      "fillopacity": "",
+      "fontsize": ""
+    },
+    "dxfexport": {
+      "selectinfo": "Paramétrage de l'export DXF",
+      "symbologyscale": "Echelle"
+    },
+    "identifyTitle": "Informations de l'objet",
+    "identify": {
+      "querying": "Identification en cours..."
+    },
+    "identifyregion": {
+      "info": "Dessiner un polygone pour identifier les objets"
+    },
+    "layerinfo": {
+      "title": "Informations dur la couche",
+      "abstract": "Récapitulation",
+      "attribution": "Attribution",
+      "keywords": "Mots-clés",
+      "dataUrl": "URL des données",
+      "metadataUrl": "URL des métadonnées",
+      "legend": "Légende"
+    },
+    "layertree": {
+      "maptip": "Afficher les maptips",
+      "transparency": "Transparence",
+      "printlegend": "Afficher la légende"
+    },
+    "locate": {
+      "tooltip": "",
+      "metersUnit": "",
+      "feetUnit": "",
+      "popup": "",
+      "outsideMapBoundsMsg": ""
+    },
+    "map": {
+      "loading": "Chargement..."
+    },
+    "measureComponent": {
+      "areaLabel": "Surface",
+      "bearingLabel": "Direction",
+      "lengthLabel": "Longueur",
+      "pointLabel": "Position"
+    },
+    "noFeatureInfo": "Aucune information n'est disponible pour le point cliqué",
+    "print": {
+      "layout": "Mise en page",
+      "nolayouts": "Il n'y a pas de mise en page disponible pour le thème choisi.",
+      "notheme": "Pas de thème sélectionné",
+      "resolution": "Résolution:",
+      "rotation": "Rotation",
+      "scale": "Echelle",
+      "submit": "Imprimer"
+    },
+    "rasterexport": {
+      "format": "Format:",
+      "selectinfo": "Dessiner un rectangle pour définir la zone à exporter"
+    },
+    "search": {
+      "coordinates": "Coordonnées",
+      "placeholder": "Recherche par toponyme ou coordonnées...",
+      "more": ""
+    },
+    "share": {
+      "directLinkTitle": "Via un lien direct",
+      "generatingpermalink": "Un lien permanent est généré...",
+      "msgToCopyUrl": "Cliquer pour copier",
+      "msgCopiedUrl": "URL copiée",
+      "QRCodeLinkTitle": "qr code",
+      "socialIntro": "via votre réseau social favori"
+    },
+    "themeswitcher": {
+      "filter": "Filtre"
+    }
+  }
+}

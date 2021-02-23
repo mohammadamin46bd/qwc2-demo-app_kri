@@ -1,0 +1,156 @@
+#LayerTree span.layertree-print-legend {
+    margin-left: 1em;
+    cursor: pointer;
+    border: 1px solid transparent;
+    padding: 0.25em;
+}
+
+#LayerTree span.layertree-print-legend:hover {
+    border: 1px solid white;
+}
+
+#LayerTree.showmaptips div.sidebar-body {
+    margin-bottom: 2.25em;
+}
+
+#LayerTree div.layertree-tree {
+    margin-right: 0.25em;
+}
+
+#LayerTree div.laytree-maptip-option {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2.25em;
+    padding: 0.25em 0.5em 0.25em 0.5em;
+    border-top: 1px solid @item_border@;
+}
+
+#LayerTree div.laytree-maptip-option > span {
+    cursor: pointer;
+}
+
+#LayerTree div.layertree-item-container {
+    margin-left: 0.5em;
+}
+
+#LayerTree div.layertree-item {
+    line-height: 2em;
+    display: flex;
+    align-items: center;
+}
+
+#LayerTree span.layertree-item-expander {
+    display: inline-block;
+    width: 1em;
+    height: 1em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.25em;
+    vertical-align: middle;
+    cursor: pointer;
+    flex: 0 0 auto;
+}
+
+#LayerTree span.layertree-item-checkbox {
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-right: 0.5em;
+    vertical-align: middle;
+    cursor: pointer;
+    flex: 0 0 auto;
+}
+
+#LayerTree img.layertree-item-legend-thumbnail {
+    height: 1.5em;
+    width: auto;
+    max-width: 2em;
+    margin-right: 0.5em;
+    border: 1px solid @item_border@;
+    flex: 0 0 auto;
+}
+
+img.layertree-item-legend-tooltip {
+    position: absolute;
+    z-index: 6;
+    box-shadow: 0px 2px 5px rgba(136, 136, 136, 0.5);
+    border-radius: 0.5em;
+    border: 1px solid @item_border@;
+    margin-left: 0.25em;
+    padding: 0.25em;
+    background-color: white;
+}
+
+#LayerTree span.layertree-item-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    flex: 0 1 auto;
+}
+
+#LayerTree div.layertree-item-disabled span.layertree-item-title {
+    color: gray;
+}
+
+#LayerTree span.layertree-item-queryable {
+    margin-left: 0.25em;
+    color: #bbbbbb;
+    font-size: xx-small;
+    vertical-align: top;
+    flex: 0 0 auto;
+}
+
+#LayerTree span.layertree-item-spacer {
+    flex: 1 1 auto;
+}
+
+#LayerTree span.layertree-item-cog {
+    line-height: 2em;
+    text-align: center;
+    width: 2em;
+    cursor: pointer;
+    color: @item_border@;
+    flex: 0 0 auto;
+    margin-left: 0.25em;
+}
+
+#LayerTree span.layertree-item-cog-active {
+    background-color: @item_border@;
+    color: white;
+}
+
+#LayerTree div.layertree-item-edit-frame {
+    border: 1px solid @item_border@;
+    color: @titlebar_bg@;
+    font-weight: bold;
+    padding: 0.25em;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    margin-left: 2em;
+    background-color: white;
+}
+
+#LayerTree span.layertree-item-transparency-label {
+    flex: 0 0 auto;
+}
+
+#LayerTree input.layertree-item-transparency-slider {
+    flex: 1 1 auto;
+    padding: 0 0.25em;
+    min-width: 0;
+    max-width: none;
+    width: auto;
+    margin: 0 0.25em;
+}
+
+#LayerTree span.layertree-item-metadata {
+    color: blue;
+    flex: 0 0 1.5em;
+    text-align: center;
+    cursor: pointer;
+}

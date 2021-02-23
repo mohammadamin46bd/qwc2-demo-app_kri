@@ -1,0 +1,68 @@
+#ThemeSwitcher div.sidebar-titlebar > input.themeswitcher-filter {
+    flex: 100;
+    max-width: 15em;
+    min-width: 0;
+    font-weight: normal;
+    padding: 0.25em;
+    margin: 0 0.5em;
+    color: @titlebar_bg@;
+    line-height: normal;
+}
+
+#ThemeSwitcher ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+#ThemeSwitcher li.theme-group > span {
+    font-weight: bold;
+    display: block;
+    border-bottom: 1px solid #a6a6a6;
+    color: @item_fg@;
+    padding-left: 0.5em;
+    margin: 0 0.5em;
+}
+
+#ThemeSwitcher li.theme-item {
+    background-color: @item_bg@;
+    color: @item_fg@;
+    font-weight: bold;
+    font-size: small;
+    border: 1px solid #a6a6a6;
+    margin: 1em;
+    text-align: center;
+    display: inline-block;
+    width: 15em;
+}
+#ThemeSwitcher div.theme-item-title {
+    padding: 0.125em;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+#ThemeSwitcher li.theme-item > img {
+    width: calc(15em - 2px);
+    height: auto;
+}
+
+#ThemeSwitcher li.theme-item:hover {
+    border: 1px solid @item_active@;
+}
+
+#ThemeSwitcher div.theme-item-keywords {
+    position: relative;
+    display: inline-block;
+    color: gray;
+    font-size: x-small;
+    font-weight: normal;
+    max-width: 80%;
+    overflow-x: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+#ThemeSwitcher li.theme-item-active {
+    border: 1px solid @item_active@;
+    color: @item_active@;
+}

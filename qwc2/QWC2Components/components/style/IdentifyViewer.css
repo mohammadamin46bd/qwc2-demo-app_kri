@@ -1,0 +1,120 @@
+#IdentifyViewer {
+    background-color: @dialog_bg@;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#IdentifyViewer div.identify-results-container {
+    overflow-y: auto;
+    flex: 1 1 50%;
+}
+
+#IdentifyViewer ul {
+    list-style-type: none;
+    padding: 0.25em 0 0.25em 1em;
+    font-size: small;
+}
+
+#IdentifyViewer div.identify-layer-result span.clickable,
+#IdentifyViewer li.identify-feature-result span.clickable {
+    cursor: pointer;
+}
+
+#IdentifyViewer li.identify-feature-result span.active {
+    font-weight: bold;
+    color: @dialog_fg@;
+}
+
+#IdentifyViewer span.identify-remove-result,
+#IdentifyViewer span.identify-export-result {
+    margin: 0 0.25em;
+    color: @item_border@;
+    cursor: pointer;
+    visibility: hidden;
+    float: right;
+    font-size: large;
+}
+
+#IdentifyViewer li.identify-feature-result:hover span.identify-remove-result,
+#IdentifyViewer div.identify-layer-result:hover span.identify-remove-result,
+#IdentifyViewer li.identify-feature-result span.active+span.identify-remove-result,
+#IdentifyViewer div.identify-layer-result:hover span.identify-remove-result,
+#IdentifyViewer li.identify-feature-result:hover span.identify-export-result,
+#IdentifyViewer div.identify-layer-result:hover span.identify-export-result,
+#IdentifyViewer li.identify-feature-result span.active+span.identify-export-result,
+#IdentifyViewer div.identify-layer-result:hover span.identify-export-result {
+    visibility: visible;
+}
+
+#IdentifyViewer li.expandable {
+    position: relative;
+}
+
+#IdentifyViewer li.expandable > span {
+    cursor: pointer;
+}
+
+#IdentifyViewer li.expandable > ul {
+    display: none;
+}
+
+#IdentifyViewer li.expandable.expanded > ul {
+    display: block;
+}
+
+#IdentifyViewer li.expandable:before {
+    content: "";
+    border-color: transparent @dialog_fg@;
+    border-width: 0.35em 0 0.35em 0.45em;
+    border-style: solid;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.3em;
+    position: absolute;
+}
+
+#IdentifyViewer li.expandable.expanded:before {
+    border-color: @dialog_fg@ transparent;
+    border-width: 0.45em 0.35em 0 0.35em;
+    top: 0.4em;
+}
+
+#IdentifyViewer div.attribute-list-box {
+    margin-top: 0.5em;
+    border: 1px solid @item_border@;
+    background-color: white;
+    font-size: small;
+    padding: 0.25em;
+    overflow-y: auto;
+    flex: 1 1 50%;
+}
+
+#IdentifyViewer table.attribute-list {
+    width: 100%;
+}
+
+#IdentifyViewer td.identify-attr-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+    width: 10ch;
+    padding-right: 0.25em;
+}
+
+#IdentifyViewer td.identify-attr-value {
+    max-width: 0;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+#IdentifyViewer div.identify-buttonbox {
+    margin-top: 0.5em;
+    text-align: right;
+    flex: 0 0 auto;
+}

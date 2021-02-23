@@ -1,0 +1,56 @@
+#BottomBar {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 3em;
+    z-index: 6;
+    color: @panel_fg@;
+    background-color: @panel_bg@;
+    box-shadow: 0 -2px 4px rgba(136, 136, 136, 0.5);
+    font-size: 75%;
+    line-height: 3em;
+}
+
+#BottomBar select {
+    border: 1px solid @item_border@;
+    background-color: white;
+    height: 2em;
+}
+
+#BottomBar select.bottombar-crs-selector {
+    border-radius: 0!important;
+}
+
+#BottomBar .mousepos_label {
+    margin-left: 200px;
+}
+
+#BottomBar input.coordinatedisplayer {
+    width: 20ch;
+    text-align: center;
+    border-style: solid;
+    border-color: @item_border@;
+    border-width: 1px 0px 1px 1px;
+    background-color: rgba(255, 255, 255, 0.75);
+    height: 2em;
+    line-height: normal;
+}
+
+#BottomBar span.mouseposition > span {
+    line-height: 2em;
+}
+
+#BottomBar .scale_label {
+    margin-left: 1em;
+}
+
+#BottomBar select.bottombar-scale-selector {
+    display: inline-block;
+}
+
+#BottomBar span.bottomlinks {
+    float: right;
+    margin-right: 4em;
+    line-height: 3em;
+}

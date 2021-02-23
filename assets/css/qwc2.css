@@ -1,0 +1,34 @@
+* {
+    cursor: inherit;
+}
+
+html, body {
+    overflow: hidden;
+    cursor: default;
+}
+
+input[type=text], input[type=password], textarea {
+    cursor:text;
+}
+
+a {
+    cursor:pointer;
+}
+
+html, body, #map, .fill, .viewer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+/** Some bootstrap.min.css overrides **/
+.glyphicon {
+    position: initial!important;
+}
+
+input[type=range] {
+    display: initial!important;
+    width: initial!important;
+}
